@@ -74,8 +74,7 @@
 ### `> TERMINAL DIAGNOSTICS`
 
 <p align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=darkhim&show_icons=true&count_private=true&hide_border=true&bg_color=0b140b&title_color=3cff6e&text_color=3cff6e&icon_color=1f9c41&ring_color=3cff6e" alt="stats">
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=darkhim&layout=compact&hide_border=true&bg_color=0b140b&title_color=3cff6e&text_color=3cff6e" alt="top languages">
+  <img src="https://raw.githubusercontent.com/darkhim/darkhim/output/diagnostics.svg" alt="contribution diagnostics" width="100%">
 </p>
 
 <p align="center">

@@ -1,4 +1,4 @@
-name: Generate contribution snake
+name: Generate profile assets
 
 on:
   schedule:
@@ -11,14 +11,21 @@ permissions:
   contents: write
 
 jobs:
-  snake:
+  assets:
     runs-on: ubuntu-latest
     steps:
+      - uses: actions/checkout@v4
+
       - uses: Platane/snk@v3
         with:
           github_user_name: ${{ github.repository_owner }}
           outputs: |
             dist/snake-dark.svg?palette=github-dark&color_snake=#3cff6e&color_dots=#0b140b,#0f3d1a,#1f9c41,#2bd65a,#3cff6e
+
+      - name: Render diagnostics card
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python3 scripts/diagnostics.py "${{ github.repository_owner }}" dist/diagnostics.svg
 
       - uses: crazy-max/ghaction-github-pages@v4
         with:

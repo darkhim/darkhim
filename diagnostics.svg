@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 300" width="960" height="300" role="img" aria-label="GitHub contribution diagnostics">
+  <defs>
+    <radialGradient id="crt" cx="50%" cy="50%" r="75%">
+      <stop offset="0%" stop-color="#0f2a14"/><stop offset="70%" stop-color="#07160a"/><stop offset="100%" stop-color="#020703"/>
+    </radialGradient>
+    <pattern id="scan" width="4" height="4" patternUnits="userSpaceOnUse"><rect width="4" height="2" fill="#000" opacity="0.28"/></pattern>
+    <filter id="glow" x="-10%" y="-30%" width="120%" height="160%">
+      <feGaussianBlur stdDeviation="2" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <style>
+    text{font-family:'VT323','Share Tech Mono','Fira Mono','Courier New',monospace;fill:#3cff6e;font-size:19px;letter-spacing:1px;white-space:pre}
+    .dim{fill:#1f9c41} .h{font-size:22px;font-weight:bold} .s{font-size:15px}
+    .ln{opacity:0;animation:on .01s forwards}
+    .bar{transform-box:fill-box;transform-origin:bottom;transform:scaleY(0);animation:grow .5s ease-out forwards}
+    @keyframes on{to{opacity:1}}
+    @keyframes grow{to{transform:scaleY(1)}}
+  </style>
+  <rect width="960" height="300" rx="18" fill="url(#crt)"/>
+  <g filter="url(#glow)">
+    <text x="40" y="44" class="h">&gt; RUN DIAGNOSTICS.EXE --USER DARKHIM</text>
+    <line x1="40" y1="58" x2="920" y2="58" stroke="#1f9c41" stroke-dasharray="6 4"/>
+    <text x="40" y="96" class=" ln" style="animation-delay:0.30s">CONTRIBUTIONS / 12 MO ........ 891</text><text x="64" y="122" class="dim ln" style="animation-delay:0.55s">PRIVATE OPERATIONS ......... 874</text><text x="64" y="148" class="dim ln" style="animation-delay:0.80s">COMMITS ..................... 11</text><text x="64" y="174" class="dim ln" style="animation-delay:1.05s">PULL REQUESTS ................ 4</text><text x="40" y="200" class=" ln" style="animation-delay:1.30s">CURRENT STREAK ............. 1 DAY</text><text x="40" y="226" class=" ln" style="animation-delay:1.55s">LONGEST STREAK ............ 8 DAYS</text><text x="40" y="252" class=" ln" style="animation-delay:1.80s">YEARS IN THE FIELD ............ 11</text>
+    <text x="550" y="82" class="dim s">WEEKLY ACTIVITY // LAST 26 WEEKS</text>
+    <rect x="550" y="230" width="12" height="2" fill="#3cff6e" opacity=".35" class="bar" style="animation-delay:0.60s"/><rect x="564" y="150" width="12" height="82" fill="#3cff6e" opacity="1" class="bar" style="animation-delay:0.64s"/><rect x="578" y="230" width="12" height="2" fill="#3cff6e" opacity=".35" class="bar" style="animation-delay:0.68s"/><rect x="592" y="230" width="12" height="2" fill="#3cff6e" opacity=".35" class="bar" style="animation-delay:0.72s"/><rect x="606" y="230" width="12" height="2" fill="#3cff6e" opacity=".35" class="bar" style="animation-delay:0.76s"/><rect x="620" y="230" width="12" height="2" fill="#3cff6e" opacity=".35" class="bar" style="animation-delay:0.80s"/><rect x="634" y="230" width="12" height="2" fill="#3cff6e" opacity=".35" class="bar" style="animation-delay:0.84s"/><rect x="648" y="230" width="12" height="2" fill="#3cff6e" opacity=".35" class="bar" style="animation-delay:0.88s"/><rect x="662" y="230" width="12" height="2" fill="#3cff6e" opacity="1" class="bar" style="animation-delay:0.92s"/><rect x="676" y="230" width="12" height="2" fill="#3cff6e" opacity=".35" class="bar" style="animation-delay:0.96s"/><rect x="690" y="230" width="12" height="2" fill="#3cff6e" opacity="1" class="bar" style="animation-delay:1.00s"/><rect x="704" y="230" width="12" height="2" fill="#3cff6e" opacity=".35" class="bar" style="animation-delay:1.04s"/><rect x="718" y="230" width="12" height="2" fill="#3cff6e" opacity=".35" class="bar" style="animation-delay:1.08s"/><rect x="732" y="230" width="12" height="2" fill="#3cff6e" opacity=".35" class="bar" style="animation-delay:1.12s"/><rect x="746" y="230" width="12" height="2" fill="#3cff6e" opacity=".35" class="bar" style="animation-delay:1.16s"/><rect x="760" y="230" width="12" height="2" fill="#3cff6e" opacity=".35" class="bar" style="animation-delay:1.20s"/><rect x="774" y="227" width="12" height="5" fill="#3cff6e" opacity="1" class="bar" style="animation-delay:1.24s"/><rect x="788" y="227" width="12" height="5" fill="#3cff6e" opacity="1" class="bar" style="animation-delay:1.28s"/><rect x="802" y="208" width="12" height="24" fill="#3cff6e" opacity="1" class="bar" style="animation-delay:1.32s"/><rect x="816" y="230" width="12" height="2" fill="#3cff6e" opacity="1" class="bar" style="animation-delay:1.36s"/><rect x="830" y="229" width="12" height="3" fill="#3cff6e" opacity="1" class="bar" style="animation-delay:1.40s"/><rect x="844" y="230" width="12" height="2" fill="#3cff6e" opacity=".35" class="bar" style="animation-delay:1.44s"/><rect x="858" y="230" width="12" height="2" fill="#3cff6e" opacity=".35" class="bar" style="animation-delay:1.48s"/><rect x="872" y="92" width="12" height="140" fill="#3cff6e" opacity="1" class="bar" style="animation-delay:1.52s"/><rect x="886" y="203" width="12" height="29" fill="#3cff6e" opacity="1" class="bar" style="animation-delay:1.56s"/><rect x="900" y="187" width="12" height="45" fill="#3cff6e" opacity="1" class="bar" style="animation-delay:1.60s"/>
+    <line x1="550" y1="233" x2="912" y2="233" stroke="#1f9c41"/>
+    <text x="40" y="282" class="dim s">LAST SYNC 2026-11-14 10:23 UTC · ALL SYSTEMS NOMINAL</text>
+  </g>
+  <rect width="960" height="300" rx="18" fill="url(#scan)"/>
+  <rect x="3" y="3" width="954" height="294" rx="16" fill="none" stroke="#1f9c41" stroke-opacity=".55" stroke-width="2"/>
+</svg>
